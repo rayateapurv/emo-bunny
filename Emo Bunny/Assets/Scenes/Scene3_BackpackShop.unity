@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &39735242
+--- !u!1 &27187204
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,24 +131,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 39735243}
-  - component: {fileID: 39735245}
-  - component: {fileID: 39735244}
+  - component: {fileID: 27187205}
+  - component: {fileID: 27187207}
+  - component: {fileID: 27187206}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: chocoNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &39735243
+--- !u!224 &27187205
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39735242}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 27187204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -156,107 +156,52 @@ RectTransform:
   m_Father: {fileID: 866278416}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 42.3, y: -0.4}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -9, y: 0}
   m_SizeDelta: {x: 50, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &39735244
+--- !u!114 &27187206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39735242}
+  m_GameObject: {fileID: 27187204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0.39978027, y: 2.2435303, z: -0.14804077, w: 2.237854}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &39735245
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 82fc4e3e9b4771844a8eaece7904318b, type: 3}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 10
+--- !u!222 &27187207
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39735242}
+  m_GameObject: {fileID: 27187204}
   m_CullTransparentMesh: 1
 --- !u!1 &82882249
 GameObject:
@@ -340,7 +285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 82882252}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1295501352}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &82882252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +348,7 @@ GameObject:
   - component: {fileID: 92627762}
   - component: {fileID: 92627761}
   - component: {fileID: 92627760}
+  - component: {fileID: 92627763}
   m_Layer: 5
   m_Name: bowTiePrice
   m_TagString: Untagged
@@ -461,7 +419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 92627761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 92627763}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &92627761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +470,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92627758}
   m_CullTransparentMesh: 1
+--- !u!114 &92627763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92627758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 12
+  propName: 8
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 1352711453}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
+--- !u!1 &110907636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110907637}
+  m_Layer: 5
+  m_Name: TextPanels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &110907637
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110907636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 113198062}
+  - {fileID: 1910314245}
+  - {fileID: 1638702020}
+  - {fileID: 285725671}
+  m_Father: {fileID: 1923835698}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.5, y: -353.5}
+  m_SizeDelta: {x: 342, y: 148}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &113198061
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,12 +562,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1923835698}
-  m_RootOrder: 5
+  m_Father: {fileID: 110907637}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -362}
+  m_AnchoredPosition: {x: -8, y: -9.5}
   m_SizeDelta: {x: 337, y: 129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113198063
@@ -585,6 +617,7 @@ GameObject:
   - component: {fileID: 140817198}
   - component: {fileID: 140817197}
   - component: {fileID: 140817196}
+  - component: {fileID: 140817199}
   m_Layer: 5
   m_Name: clockPrice
   m_TagString: Untagged
@@ -599,7 +632,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140817194}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -655,7 +688,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 140817197}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 140817199}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &140817197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +739,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140817194}
   m_CullTransparentMesh: 1
+--- !u!114 &140817199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140817194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 5
+  propName: 2
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 1220113574}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &285725670
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,12 +791,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1923835698}
-  m_RootOrder: 8
+  m_Father: {fileID: 110907637}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: -363}
+  m_AnchoredPosition: {x: -2.5, y: -9.5}
   m_SizeDelta: {x: 337, y: 129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285725672
@@ -1216,7 +1283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 638220302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1713745511}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &638220302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,7 +1352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &645930920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1337,7 +1416,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 645930922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1185604357}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &645930922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,6 +2012,7 @@ GameObject:
   - component: {fileID: 775006884}
   - component: {fileID: 775006883}
   - component: {fileID: 775006882}
+  - component: {fileID: 775006885}
   m_Layer: 5
   m_Name: mirrorPrice
   m_TagString: Untagged
@@ -1991,7 +2083,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 775006883}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 775006885}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &775006883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2030,6 +2134,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775006880}
   m_CullTransparentMesh: 1
+--- !u!114 &775006885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775006880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 15
+  propName: 7
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 1396699115}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &826119671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,9 +2264,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 39735243}
+  - {fileID: 27187205}
   m_Father: {fileID: 1923835698}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -2262,6 +2388,7 @@ GameObject:
   - component: {fileID: 1086495958}
   - component: {fileID: 1086495957}
   - component: {fileID: 1086495956}
+  - component: {fileID: 1086495959}
   m_Layer: 5
   m_Name: ticketPrice
   m_TagString: Untagged
@@ -2332,7 +2459,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1086495957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1086495959}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1086495957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,6 +2510,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086495954}
   m_CullTransparentMesh: 1
+--- !u!114 &1086495959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086495954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 10
+  propName: 5
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 1772443046}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &1185604352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,6 +2544,7 @@ GameObject:
   - component: {fileID: 1185604356}
   - component: {fileID: 1185604355}
   - component: {fileID: 1185604354}
+  - component: {fileID: 1185604357}
   m_Layer: 5
   m_Name: teacupPrice
   m_TagString: Untagged
@@ -2453,7 +2615,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1185604355}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1185604357}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1185604355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2492,6 +2666,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185604352}
   m_CullTransparentMesh: 1
+--- !u!114 &1185604357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185604352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 10
+  propName: 6
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 645930919}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &1208160580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,10 +2834,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 33e20aae3023fb749ac4502f17af9c23, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 33e20aae3023fb749ac4502f17af9c23, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 33e20aae3023fb749ac4502f17af9c23, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: 33e20aae3023fb749ac4502f17af9c23, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 4f92925fe6625974687e162c432d54b3, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 4f92925fe6625974687e162c432d54b3, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 4f92925fe6625974687e162c432d54b3, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: 4f92925fe6625974687e162c432d54b3, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -2652,7 +2848,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220113577}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 140817199}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1220113577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2703,6 +2911,7 @@ GameObject:
   - component: {fileID: 1295501351}
   - component: {fileID: 1295501350}
   - component: {fileID: 1295501349}
+  - component: {fileID: 1295501352}
   m_Layer: 5
   m_Name: newspaperPrice
   m_TagString: Untagged
@@ -2717,7 +2926,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295501347}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2773,7 +2982,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1295501350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1295501352}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1295501350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2812,6 +3033,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295501347}
   m_CullTransparentMesh: 1
+--- !u!114 &1295501352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295501347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 7
+  propName: 4
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 82882249}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &1352711453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2830,7 +3073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1352711454
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2894,7 +3137,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1352711456}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 92627763}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1352711456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,7 +3206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1396699116
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3015,7 +3270,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1396699118}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 775006885}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1396699118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3066,6 +3333,7 @@ GameObject:
   - component: {fileID: 1553236074}
   - component: {fileID: 1553236073}
   - component: {fileID: 1553236072}
+  - component: {fileID: 1553236075}
   m_Layer: 5
   m_Name: kitePrice
   m_TagString: Untagged
@@ -3080,7 +3348,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553236070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3136,7 +3404,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1553236073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1553236075}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1553236073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3175,6 +3455,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553236070}
   m_CullTransparentMesh: 1
+--- !u!114 &1553236075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553236070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propPrice: 5
+  propName: 3
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 1562726390}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &1562726390
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,7 +3559,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1562726393}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1553236075}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1562726393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3295,6 +3609,86 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562726390}
+  m_CullTransparentMesh: 1
+--- !u!1 &1569764101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569764102}
+  - component: {fileID: 1569764104}
+  - component: {fileID: 1569764103}
+  m_Layer: 5
+  m_Name: propName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1569764102
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569764101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1923835698}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1569764103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569764101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.41509432, g: 0.32659307, b: 0.32659307, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1569764104
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569764101}
   m_CullTransparentMesh: 1
 --- !u!1 &1633956270
 GameObject:
@@ -3476,12 +3870,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1923835698}
-  m_RootOrder: 6
+  m_Father: {fileID: 110907637}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -344}
+  m_AnchoredPosition: {x: -10, y: -9.5}
   m_SizeDelta: {x: 253.5, y: 129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638702021
@@ -3506,10 +3900,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.3372549, g: 0.23529413, b: 0.28235295, a: 1}
+    m_PressedColor: {r: 0.3372549, g: 0.23529413, b: 0.28235295, a: 1}
+    m_SelectedColor: {r: 0.3372549, g: 0.23529413, b: 0.28235295, a: 1}
+    m_DisabledColor: {r: 0.3372549, g: 0.23529413, b: 0.28235295, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3527,7 +3921,103 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638702022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1713745511}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 140817199}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1553236075}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1295501352}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1086495959}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1185604357}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 775006885}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 92627763}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: PayChoco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1638702022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3593,7 +4083,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713745506}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3650,13 +4140,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1713745506}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1713745511}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: BuyProp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3709,12 +4199,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1713745506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c563d26c9da2dec49b68afe14d9a4270, type: 3}
+  m_Script: {fileID: 11500000, guid: 57596c5027712e94d94f2ff1171e397d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPanel: {fileID: 0}
-  currentPanel: {fileID: 0}
-  targetScene: 0
+  propPrice: 3
+  propName: 1
+  buyThisPanel: {fileID: 1638702019}
+  takeThisPanel: {fileID: 1910314244}
+  propPanel: {fileID: 638220299}
+  cantAffordPanel: {fileID: 113198061}
+  TextPanel: {fileID: 110907636}
+  chocoNumberText: {fileID: 27187206}
+  propReference: {fileID: 1569764103}
+  buyButton: 0
 --- !u!1 &1772443046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3733,7 +4230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1772443047
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3797,7 +4294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1772443049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1086495959}
+        m_TargetAssemblyTypeName: PropBehaviors, Assembly-CSharp
+        m_MethodName: TakeProp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1772443049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3933,6 +4442,7 @@ GameObject:
   - component: {fileID: 1910314248}
   - component: {fileID: 1910314247}
   - component: {fileID: 1910314246}
+  - component: {fileID: 1910314249}
   m_Layer: 5
   m_Name: takeThis
   m_TagString: Untagged
@@ -3952,12 +4462,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1923835698}
-  m_RootOrder: 7
+  m_Father: {fileID: 110907637}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -344}
+  m_AnchoredPosition: {x: -10, y: -9.5}
   m_SizeDelta: {x: 253.5, y: 129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910314246
@@ -4003,7 +4513,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1910314247}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1910314249}
+        m_TargetAssemblyTypeName: buttonBehavior, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1910314247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4042,6 +4564,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910314244}
   m_CullTransparentMesh: 1
+--- !u!114 &1910314249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910314244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c563d26c9da2dec49b68afe14d9a4270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPanel: {fileID: 0}
+  currentPanel: {fileID: 0}
+  targetScene: 0
 --- !u!1 &1923835694
 GameObject:
   m_ObjectHideFlags: 0
@@ -4138,11 +4675,9 @@ RectTransform:
   - {fileID: 354423894}
   - {fileID: 1861225464}
   - {fileID: 475596520}
+  - {fileID: 110907637}
   - {fileID: 866278416}
-  - {fileID: 113198062}
-  - {fileID: 1638702020}
-  - {fileID: 1910314245}
-  - {fileID: 285725671}
+  - {fileID: 1569764102}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
