@@ -60,14 +60,11 @@ public class PropBehaviors : MonoBehaviour
     }
     public void TakeProp()
     {
-        if (propReference.text == propName.ToString())
-        {
             for (int i = 0; i < TextPanel.transform.childCount; i++)
             {
                 TextPanel.transform.GetChild(i).gameObject.SetActive(false);
             }
             takeThisPanel.SetActive(true);
-        }
     }
 
 }
