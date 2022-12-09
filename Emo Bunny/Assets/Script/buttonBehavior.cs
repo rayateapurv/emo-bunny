@@ -9,16 +9,7 @@ public class buttonBehavior : MonoBehaviour
     public GameObject targetPanel;
     public GameObject currentPanel;
     public int targetScene;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void ChangeScene()
     {
 
