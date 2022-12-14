@@ -49,6 +49,7 @@ public class BunnyBehavior : MonoBehaviour
             else
             {
                 state = "hungry";
+                hungerTime = 0;
             }
         }
 
@@ -73,8 +74,8 @@ public class BunnyBehavior : MonoBehaviour
             else
             {
                 state = "base";
+                baseTime = 0;
                 Poop();
-                poopTime = 0;
             }
         }
 
@@ -148,6 +149,7 @@ public class BunnyBehavior : MonoBehaviour
     public void Feed()
     {
         state = "fed";
+        poopTime = 0;
         emotions.Clear();
         emotions.Add(angerSlider.value);
         emotions.Add(joySlider.value);
