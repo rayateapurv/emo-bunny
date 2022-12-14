@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene1_EmoBunny.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Scene2_CardCollection.unity
+    guid: e3f5bbd2efcba4cd88b7441a66ec7f1e
+  - enabled: 1
+    path: Assets/Scenes/Scene3_BackpackShop.unity
+    guid: cb870a1ef932c40abbc03b851934c7c0
   m_configObjects: {}
