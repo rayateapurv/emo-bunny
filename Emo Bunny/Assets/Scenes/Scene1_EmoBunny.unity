@@ -5119,10 +5119,10 @@ MonoBehaviour:
   poopLimit: 20
   feedPanel: {fileID: 1121394206}
   angerSlider: {fileID: 983846931}
-  joySlider: {fileID: 0}
-  fearSlider: {fileID: 0}
-  sadSlider: {fileID: 0}
-  disgustSlider: {fileID: 0}
+  joySlider: {fileID: 823998235}
+  fearSlider: {fileID: 1061994543}
+  sadSlider: {fileID: 129870695}
+  disgustSlider: {fileID: 1876222616}
   poop1: {fileID: 6342840287368814380, guid: 25ffd36481d3f4088b69f76fbd5f5caf, type: 3}
   poop2: {fileID: 2434957386421281952, guid: 9b36b9e9020584dfd9636ace846b4d95, type: 3}
   poop3: {fileID: 4436100445370142595, guid: bcceefc3e25c1474a96f7fb2b1f1966b, type: 3}
