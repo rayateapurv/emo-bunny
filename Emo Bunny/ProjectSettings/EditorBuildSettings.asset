@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1_EmoBunny.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene2_CardCollection.unity
     guid: e3f5bbd2efcba4cd88b7441a66ec7f1e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene3_BackpackShop.unity
     guid: cb870a1ef932c40abbc03b851934c7c0
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9d9df5382f33c420886279a77e0b7ba9, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3ba3a0e4d22f34293ad2684cbca10a1a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2a804d161742a45b381df29c3d1ef148, type: 2}
