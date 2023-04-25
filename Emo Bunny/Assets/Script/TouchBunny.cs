@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class TouchBunny : MonoBehaviour
 {
     public GameObject FeedingPanel;
-    
+    public GameObject Bunny;
 
     void Update()
     {
@@ -19,11 +19,15 @@ public class TouchBunny : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider != null)
+                if (hit.collider.CompareTag("Bunny"))
                 {
-                    if (FeedingPanel != null)
+                 
+                    FeedingPanel.SetActive(true);
+                    }
+
+                else
                     {
-                        FeedingPanel.SetActive(true);
+                        FeedingPanel.SetActive(false);
                     }
                 }
             }
@@ -31,4 +35,3 @@ public class TouchBunny : MonoBehaviour
 
     }   
    
-}
