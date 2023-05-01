@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2457965087621426572}
   - component: {fileID: -8392390680634378407}
+  - component: {fileID: 3012388058209257635}
   m_Layer: 0
   m_Name: Bunny
   m_TagString: Untagged
@@ -46,6 +47,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6592398, y: 0.74025697, z: 0.7555219}
   m_Center: {x: 0.016735941, y: 0.21710452, z: 0.022776067}
+--- !u!114 &3012388058209257635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8116006164373823305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5ad09999c234ae3814ff20f7428fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 7499444332991151604, guid: 0f04ff152786f4d9b9f3039a2fff7f80, type: 3}
+  closeButton: {fileID: 0}
 --- !u!1001 &5907227839497462914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101,8 +116,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3357667602466494763, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681572516663234903, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130395487343113150, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}
+--- !u!1 &6070978626466069451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 412856210093825865, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}
+  m_PrefabInstance: {fileID: 5907227839497462914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &9213097576503229136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6070978626466069451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3577057, y: 2.0401917, z: 1.2432065}
+  m_Center: {x: 0.09112921, y: 0.52009594, z: -0.06108725}
 --- !u!4 &6848746095712919921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1076661739183179251, guid: aa5d73ad936a64fe294c0e88f3f8af72, type: 3}

@@ -128,20 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8116006164373823305, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
   m_PrefabInstance: {fileID: 852877938}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &40919615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40919614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d5ad09999c234ae3814ff20f7428fe0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 2034595860}
-  closeButton: {fileID: 1837082661}
 --- !u!1 &73547977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,8 +2551,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Size.x
+      value: 1.003837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96862894
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Size.z
+      value: 1.0946488
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Center.x
+      value: -0.041235387
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Center.y
+      value: 0.084730476
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Center.z
+      value: 0.034762025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8392390680634378407, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 955614837582525909, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2457965087621426572, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
       propertyPath: m_RootOrder
@@ -2612,6 +2626,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3012388058209257635, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: closeButton
+      value: 
+      objectReference: {fileID: 1837082661}
+    - target: {fileID: 3408976695475115836, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8116006164373823305, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
       propertyPath: m_Name
       value: Bunny
@@ -2624,7 +2646,28 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Bunny
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9179009530549321129, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213097576503229136, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Size.x
+      value: 2.7385046
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213097576503229136, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Size.y
+      value: 2.5327916
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213097576503229136, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Center.x
+      value: -0.007613182
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213097576503229136, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
+      propertyPath: m_Center.y
+      value: 0.15237612
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3037030299664757553, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5ad7b89c277be4b0b8ef31b764716afc, type: 3}
 --- !u!1 &879803724
 GameObject:
