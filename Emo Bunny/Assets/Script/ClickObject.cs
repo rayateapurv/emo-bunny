@@ -5,26 +5,36 @@ using UnityEngine.UI;
 
 public class ClickObject : MonoBehaviour
 {
-    public GameObject panel;//½çÃæ
-    public Button closeButton;//¹Ø±Õ°´Å¥
+    public GameObject panel;//ï¿½ï¿½ï¿½ï¿½
+    public Button closeButton;//ï¿½Ø±Õ°ï¿½Å¥
     void Start()
     {
-        closeButton.onClick.AddListener(CilckButtonClose); 
+        closeButton.onClick.AddListener(CilckButtonClose);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void OnMouseDown()
-    {
-        if (panel.activeSelf == false) //½çÃæÃ»¼¤»îÊ±£¬¼¤»î
+        foreach (Touch touch in Input.touches)
         {
-            panel.SetActive(true);
+            if (touch.phase == TouchPhase.Began)
+            {
+                Ray ray = Camera.main.ScreenPointToRay(touch.position);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit))
+                {
+                    if (hit.collider.tag== "Bunny")
+                    {
+                        panel.SetActive(true);
+                    }
+
+                    // ï¿½Ú´Ë´ï¿½Êµï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                }
+            }
         }
     }
-    public void CilckButtonClose() //¹Ø±Õ½çÃæ
+
+    public void CilckButtonClose() //ï¿½Ø±Õ½ï¿½ï¿½ï¿½
     {
         panel.SetActive(false);
     }
