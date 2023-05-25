@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ClickObject : MonoBehaviour
 {
-    public GameObject panel;//����
-    public Button closeButton;//�رհ�ť
+    public GameObject panel;
+    public Button closeButton;
     void Start()
     {
         closeButton.onClick.AddListener(CilckButtonClose);
@@ -28,13 +28,12 @@ public class ClickObject : MonoBehaviour
                         panel.SetActive(true);
                     }
 
-                    // �ڴ˴�ʵ�ֶ�����Ľ�������
                 }
             }
         }
     }
 
-    public void CilckButtonClose() //�رս���
+    public void CilckButtonClose()
     {
         panel.SetActive(false);
     }
